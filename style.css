@@ -1,0 +1,63 @@
+h1{
+    font-family: "Kaisei Decol", serif;
+    color: rgb(0, 47, 109);
+    font-size: 24px;
+}
+
+h2{
+    font-family: "Kaisei Decol", serif;
+    font-size: 16px;
+}
+
+div{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    text-align: left;
+}
+
+ol{
+    width: fit-content;
+}
+
+.namecard {
+    width: 15rem;
+    height: 21rem;
+
+    margin: 2rem;
+    padding: 3rem;
+
+    color: #333;
+    background-color: rgb(244, 255, 253);
+
+    margin: auto;
+    border-radius: 40px;
+
+    box-shadow: 15px 15px 5px #51a9a3;
+
+    transition: 0.7s;
+
+    border: solid 5px #b6d0d1;
+}
+
+.namecard:hover{
+    background-color: rgb(186, 236, 252);
+    border-color: rgb(248, 255, 255);
+    transform: scale(1.05, 1.05);
+}
+
+body{
+    padding: 5%;
+    background-color: rgb(209, 255, 255);
+}
