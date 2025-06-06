@@ -54,7 +54,7 @@ ol{
 .namecard:hover{
     background-color: rgb(186, 236, 252);
     border-color: rgb(248, 255, 255);
-    transform: scale(1.05, 1.05);
+    transform: translate(0,-10px);
 }
 
 body{
